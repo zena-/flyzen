@@ -16,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <nav className={styles.nav}>
           <h1>Did It & Ran</h1>
-          <p>Have an adventure, get into trouble, experiences something new.</p>
+          <p>Have an adventure, get into trouble, experiences something&nbsp;new.</p>
         </nav>
 
         <div className={styles.quiz}>

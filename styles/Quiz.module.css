@@ -101,7 +101,37 @@
 }
 
 
+@media (max-width: 1200px) {
+  .ques {
+  	flex-wrap: wrap;
+  }
+  .questions:not(:last-of-type) {
+  	width: 20%;
+  }
+  .questions:last-of-type, .extras {
+  	width: 100%;
+  }
+  .extras {
+  	justify-content: center;
+  	gap: 7px;
+  }
+  .plusminus p {
+	  font-size: 12px;
+	}
+}
 
+@media (max-width: 500px) {
+	.questions:not(:last-of-type) {
+  	width: 40%;
+  }
+  .ques {
+  	gap: 45px;
+  }
+  .drops input {
+  	width: 8rem;
+  	font-size: 12px;
+  }
+}
 
 
 

@@ -13,12 +13,12 @@
   margin-bottom: 1rem;
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .nav h1 {
   font-weight: 600;
-/*  margin-bottom: 0;*/
+  margin-bottom: 0;
   font-size: 30px;
   width: min-content;
   line-height: 25px;
@@ -36,7 +36,7 @@
   margin-bottom: 1rem;
 }
 
-.grid {
+/*grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
   width: var(--max-width);
@@ -59,9 +59,9 @@
 .card h2 {
   font-weight: 600;
   margin-bottom: 0.7rem;
-}
+}*/
 
-.card p {
+/*.card p {
   margin: 0;
   opacity: 0.6;
   font-size: 0.9rem;
@@ -83,9 +83,9 @@
   width: 480px;
   height: 360px;
   margin-left: -400px;
-}
+}*/
 
-.center::after {
+/*.center::after {
   background: var(--primary-glow);
   width: 240px;
   height: 180px;
@@ -118,16 +118,15 @@
   border-radius: var(--border-radius);
   overflow: hidden;
   box-shadow: 0px 2px 8px -1px #0000001a;
-}
+}*/
 
-.thirteen::before,
+/*.thirteen::before,
 .thirteen::after {
   content: '';
   position: absolute;
   z-index: -1;
 }
 
-/* Conic Gradient Animation */
 .thirteen::before {
   animation: 6s rotate linear infinite;
   width: 200%;
@@ -135,7 +134,6 @@
   background: var(--tile-border);
 }
 
-/* Inner Square */
 .thirteen::after {
   inset: 0;
   padding: 1px;
@@ -146,30 +144,36 @@
     rgba(var(--tile-end-rgb), 1)
   );
   background-clip: content-box;
-}
+}*/
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
-  .card:hover {
+  /*.card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
   }
 
   .card:hover span {
     transform: translateX(4px);
-  }
+  }*/
 }
 
 @media (prefers-reduced-motion) {
-  .thirteen::before {
+  /*.thirteen::before {
     animation: none;
   }
 
   .card:hover span {
     transform: none;
-  }
+  }*/
 }
 
+@media (max-width: 900px) {
+  .nav p {
+    font-size: 10px;
+    width: 50%;
+  }
+}
 /* Mobile */
 @media (max-width: 700px) {
   .content {
@@ -249,27 +253,27 @@
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
-  .grid {
+  /*.grid {
     grid-template-columns: repeat(2, 50%);
-  }
+  }*/
 }
 
 @media (prefers-color-scheme: dark) {
-  .vercelLogo {
+  /*.vercelLogo {
     filter: invert(1);
   }
 
   .logo,
   .thirteen img {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
+  }*/
 }
 
-@keyframes rotate {
+/*@keyframes rotate {
   from {
     transform: rotate(360deg);
   }
   to {
     transform: rotate(0deg);
   }
-}
+}*/
