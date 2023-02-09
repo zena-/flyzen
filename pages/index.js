@@ -30,7 +30,7 @@ export default function Home() {
         <footer>
           <p className="none">Psalm 91</p>
           <p className="copyright">© All rights reserved Did It and Ran 2023</p>
-          <p>made by <a href="https://nosazena.com" target="_blank">nosazena llc.</a></p>
+          <p>made by <a href="https://nosazena.com" target="_blank" rel="noreferrer">nosazena llc.</a></p>
         </footer>
       </main>
     </>

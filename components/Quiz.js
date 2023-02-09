@@ -89,7 +89,7 @@ const Quiz = () => {
 				<div className={styles.extras}>
 					<div>
 						<input type="checkbox" className={`btn-check ${girlTrip}`} id="btn-girl-trip" value={girlTrip} onChange={() => setgirlTrip(!girlTrip)} autoComplete="off" />
-						<label className={styles.exbtn} htmlFor="btn-girl-trip">Girl's Trip</label>
+						<label className={styles.exbtn} htmlFor="btn-girl-trip">Girl&#39;s Trip</label>
 					</div>
 
 					<div>
