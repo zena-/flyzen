@@ -1,0 +1,108 @@
+.ques {
+	display: flex;
+/*	gap: 35px;*/
+	justify-content: space-between;
+}
+
+.questions h3 {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.checkAny {
+ display: flex;
+ gap: 7px;
+}
+
+.checkAny label {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.drops {
+	margin-top: 5px;
+}
+
+.drops input {
+	width: 10rem;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 1px solid lightgrey;
+	padding-left: 3px;
+}
+
+.drops input:focus-visible {
+	outline: none;
+}
+
+.plusminus {
+	display: flex;
+	gap: 10px;
+	flex-wrap: nowrap;
+	margin-bottom: 7px;
+}
+.plusminus p {
+  line-height: 14px;
+  font-size: 16px;
+  text-align: center;
+  align-self: center;
+  width: 4rem;
+  margin-bottom: 0;
+}
+.plusminus p span{
+	font-weight: 200;
+	font-size: 10px;
+	line-height: 10px;
+	text-align: center;
+}
+.plus, .minus, .noPets, .yesPets {
+	font-size: 25px;
+	border: 0.5px solid lightgrey;
+	padding: 10px;
+	line-height: 16px;
+	background: #fff;
+	width: 40px;
+  border-radius: 4px;
+}
+
+.exbtn {
+	font-size: 15px;
+	border: 0.5px solid lightgrey;
+	padding: 10px;
+	line-height: 16px;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: inset -1px -1px 1px #877f7f;
+	margin-bottom: 7px;
+}
+
+.noPets, .yesPets {
+	font-size: 13px;
+	font-weight: 200;
+}
+
+.plus:hover, .minus:hover, .noPets:hover, .yesPets:hover, .exbtn:hover {
+	background: #d3d3d369;
+	box-shadow: -1px -1px 1px #877f7f;
+	cursor: pointer;
+}
+
+.budget span {
+	color: lightgrey;
+}
+
+.extras {
+	display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 33rem;
+  gap: 2px;
+}
+
+
+
+
+
+
+
